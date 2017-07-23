@@ -40,7 +40,7 @@ app.get('*', function(req, res){
 
 
   console.log("Now serving pics of doggos.");
-  setInterval(displayTweet, 10000);
+  setInterval(displayTweet, 15000);
 });
 
 app.listen(app.get('port'), function() {
